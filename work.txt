@@ -89,3 +89,9 @@ git remote -v
 HEAD -> master, origin/master
 나오면 이것은 원격저장소에 마지막 버전으로 올린것이다
 동기화 안되고 로컬로 된건 HEAD -> master 만나옴
+
+--
+실수로 같은 이름으로 커밋을 로컬과 웹에서 했을때 강제로 밀어 올리기
+git push -force
+그럼 나머지가 다 날라가므로 협업할때 쓰지마라
+
