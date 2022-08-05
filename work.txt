@@ -102,3 +102,5 @@ import streamlit as s
 st.write()
 써줘야할지도
 실행은 python -m streamlit run main.py
+
+
