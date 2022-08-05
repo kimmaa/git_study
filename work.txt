@@ -42,3 +42,45 @@ add 로 묶어줄 수 있어
 --
 git log 의 gui 버전은 git graph
 마스터는 마지막으로 만들어진 버전이다 
+master = main 
+
+---
+GitHub 원격 저장소로 버전들 올리기
+지역저장소를 원격저장소에 등록하는 방법
+원격 저장소와 통신하는 방식은 두가지 http와 ssh
+
+git remote add origin https://github.com/kimmaa/dataitgirls6_git.git
+
+https 실패시 SSH로 할수 있다. 
+실패했던 http origin을 지워준다.
+git remote remove origin 
+엔터
+git remote add origin git@github.com:kimmaa/dataitgirls6_git.git
+엔터
+ssh-keygen 
+엔터
+패스워드 넣으라고 하는디
+엔터
+그러면 public key has been saved in 경로 나오는데 
+경로 복사
+- cat 경로붙여넣기 (이건 맥)
+엔터
+그러면 정교하게 그 패스워드를 모두 복사해
+- code 경로붙여넣기 (이건 윈도우)
+엔터 
+그러면 창이 켜지고 전교하게 그 패스워드를 모두 복사해
+
+github의 프로필 이미지를 클릭 settings 
+ssh and gpg keys 들어가
+ssh keys의 key란에 그 패스워드를 붙여넣어
+title에는 내가 식별가능하게 컴터의 이름을 넣어
+
+
+------
+git push하기
+
+git push -u origin main
+
+--
+git remote -v 
+내 git 의 경로 보여준다
