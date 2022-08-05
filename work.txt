@@ -10,7 +10,7 @@ git config --global user.email "you@example.com"
 지금까지 커밋한 버전 보는 방법
 git log 
 엔터
-
+-- 나올때는 q 버튼 
 ---
 git 수정된것 있는지 보는것: GUI의 변경내용 스테이징과 같은 것
 git status
@@ -27,3 +27,4 @@ git commit -m "변경내용"
 
 -----
 commit 연습하기 좋은 날씨네
+GUI로 변경해보기
