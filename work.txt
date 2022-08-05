@@ -78,8 +78,7 @@ title에는 내가 식별가능하게 컴터의 이름을 넣어
 
 ------
 git push하기
-
-git push -u origin main
+git push -u origin master
 
 --
 git remote -v 
