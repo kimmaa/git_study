@@ -1,1 +1,12 @@
-1
+git 처음 로그인 할때 
+이름 설정
+git config --global user.name "Your Name"
+엔터
+이메일등 연락처 설정
+git config --global user.email "you@example.com"
+엔터 
+
+----
+지금까지 커밋한 버전 보는 방법
+git log 
+엔터
