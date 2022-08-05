@@ -95,3 +95,10 @@ HEAD -> master, origin/master
 git push -force
 그럼 나머지가 다 날라가므로 협업할때 쓰지마라
 
+---
+stream lit 올리는 방법
+우선 streamlit 설치 올릴 main.py를 깃헙 저장소에 커밋과 푸쉬한다. 
+import streamlit as s
+st.write()
+써줘야할지도
+실행은 python -m streamlit run main.py
